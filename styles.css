@@ -191,7 +191,7 @@ main button:first-child:active {
     background-color: #21cde0;
 }
 
-@media (width < 912px) {
+@media (width < 1040px) {
     aside img {
       display: none;
     }
