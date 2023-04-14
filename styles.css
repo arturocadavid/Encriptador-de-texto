@@ -106,7 +106,6 @@ aside {
     justify-content: center;
     padding: 2rem;
     margin: 0 auto;
-    // Para solucionar problemas de textos largos
     overflow-x: hidden;
 }
 
@@ -198,7 +197,7 @@ main button:first-child:active {
     }
 
     aside {
-        max-width: 43rem;
+        max-width: 80%;
     }
   
     body {
@@ -226,6 +225,7 @@ main button:first-child:active {
     body {
       padding: 1.5rem 1rem;
       grid-template-rows: auto 75vh auto;
+      font-size: 0.75rem;
     }
   
     main section {
@@ -233,7 +233,8 @@ main button:first-child:active {
     }
 
     aside {
-        max-width: 80vw;
+        max-width: 80%;
         margin: auto;
+        padding: 0 1rem;
     }
 }
