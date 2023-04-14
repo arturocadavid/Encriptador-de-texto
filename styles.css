@@ -95,7 +95,7 @@ main button:first-child {
 
 aside {
     height: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -105,6 +105,9 @@ aside {
     text-align: center;
     justify-content: center;
     padding: 2rem;
+    margin: 0 auto;
+    // Para solucionar problemas de textos largos
+    overflow-x: hidden;
 }
 
 aside h2 {
@@ -195,7 +198,7 @@ main button:first-child:active {
     }
 
     aside {
-        max-width: 688px;
+        max-width: 43rem;
     }
   
     body {
@@ -227,5 +230,10 @@ main button:first-child:active {
   
     main section {
       flex-direction: column;
+    }
+
+    aside {
+        max-width: 80vw;
+        margin: auto;
     }
 }
