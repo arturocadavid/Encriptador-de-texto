@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <script type="module" src="./main.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/marca.png" alt="logo">
+    </header>
+    <main>
+        <textarea id="texto-entrada" type="text" placeholder="Ingrese el texto aquí"></textarea>
+        <p><img src="img/info.png" alt="aviso">Evita usar acentos o símbolos</p>
+        <section>
+            <button id="btnEncrip">Encriptar</button>
+            <button id="btnDesencrip">Desencriptar</button>
+        </section>
+        <p class="firma">
+            <a href="https://www.linkedin.com/in/arturocadavid/" target="_blank">
+                by 
+                <span>Arturo Cadavid</span>
+                <img src="img/linkedin.png" alt="">
+            </a> 
+        </p>
+    </main>
+    <aside>
+        <div id="result"></div>
+        <button id="btnCopiar">Copiar</button>
+    </aside>
+</body>
+</html>
