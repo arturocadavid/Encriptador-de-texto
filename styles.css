@@ -172,6 +172,7 @@ a img {
 button:hover {
     background: #c7cdd4;
     border-color: #21cde0;
+    cursor: pointer;
 }
 
 button:active {
