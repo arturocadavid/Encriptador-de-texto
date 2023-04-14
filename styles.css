@@ -1,17 +1,15 @@
 body {
     position: relative;
     background: #f3f5fc;
-    padding: 30px 40px 50px;
-    
+    padding: 40px;
     min-height: 85vh;
-    
     font-size: 16px;
     font-family: 'Cascadia Code', sans-serif;
     font-style: normal;
-    
     display: grid;
     grid-template-columns: calc(24px + 6%) 7fr 3fr;
     gap: 6%;
+    overflow-x: hidden;
 }
 
 header {
