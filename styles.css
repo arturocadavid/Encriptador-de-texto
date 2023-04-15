@@ -201,8 +201,10 @@ main button:first-child:active {
     aside img {
         display: none;
     }
+
     aside {
         width: 80%;
+        height: 100%;
     }
 
     body {
@@ -217,7 +219,11 @@ main button:first-child:active {
     }
 
     #result {
-        max-height: 10rem;
+        max-height: 15rem;
+    }
+
+    textarea {
+        min-height: 6rem;
     }
     
     header {
@@ -242,12 +248,16 @@ main button:first-child:active {
     body {
         padding: 1rem 1rem 1rem;
         grid-template-rows: auto 42vh auto;
-        gap: 20px;
+        gap: 5rem;
         font-size: 0.75rem;
     }
 
     #result {
-        max-height: 10rem;
+        max-height: 15rem;
+    }
+
+    textarea {
+        min-height: 6rem;
     }
 
     main section {
