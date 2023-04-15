@@ -1,4 +1,5 @@
 body {
+    max-width: 100%;
     position: relative;
     background: #f3f5fc;
     padding: 40px;
@@ -7,7 +8,7 @@ body {
     font-family: 'Cascadia Code', sans-serif;
     font-style: normal;
     display: grid;
-    grid-template-columns: calc(24px + 6%) 7fr 3fr;
+    grid-template-columns: calc(1.5rem + 6%) 7fr 3fr;
     gap: 6%;
     overflow-x: hidden;
 }
@@ -19,7 +20,8 @@ header {
 }
 
 main {
-    padding-top: 8em;
+    max-width: 100%;
+    padding-top: 8rem;
     display: grid;
     grid-template-rows: 1fr min-content min-content;
 }
@@ -53,7 +55,7 @@ main img {
 }
 
 main p {
-    margin: 1rem 0;
+    margin: 1rem 1rem 0.5rem 0rem;
     display: flex;
     gap: 0.313rem;
     align-items: center;
@@ -95,6 +97,7 @@ main button:first-child {
 aside {
     height: 100%;
     width: 25rem;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -202,6 +205,7 @@ main button:first-child:active {
     }
   
     body {
+        max-width: 100%;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto 60vh auto;
@@ -228,6 +232,7 @@ main button:first-child:active {
   
 @media (max-width: 510px) {
     body {
+        max-width: 100%;
         padding: 1.5rem 1rem 1rem;
         grid-template-rows: auto 75vh auto;
         font-size: 0.75rem;
